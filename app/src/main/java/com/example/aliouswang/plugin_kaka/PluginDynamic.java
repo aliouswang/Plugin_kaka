@@ -12,6 +12,6 @@ public class PluginDynamic implements IDynamic{
 
     @Override
     public Drawable getDrawable(Context context) {
-        return null;
+        return context.getResources().getDrawable(R.mipmap.ic_launcher_round_2);
     }
 }
